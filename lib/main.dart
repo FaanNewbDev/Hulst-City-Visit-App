@@ -34,7 +34,14 @@ class Homepage extends StatelessWidget {
         ],
       ),
       body: SafeArea(
-        child: Container(),
+        child: SingleChildScrollView(
+          padding: EdgeInsets.all(20.0),
+          child: Column(
+            children: <Widget>[
+              Container()
+            ],
+          ),
+        ),
       ),
     );
   }
