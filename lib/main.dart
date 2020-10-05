@@ -23,7 +23,7 @@ class Homepage extends StatelessWidget {
           begin: Alignment.topLeft,
           colors: [
             Colors.green[50],
-            Colors.green[200],
+            Colors.green[300],
           ],
         ),
         //image: DecorationImage(
@@ -52,11 +52,11 @@ class Homepage extends StatelessWidget {
               children: <Widget>[
                 Container(
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20.0),
+                    borderRadius: BorderRadius.circular(40.0),
                     boxShadow: [
                       BoxShadow(
                         color: Colors.grey.withOpacity(0.5),
-                        spreadRadius: 5,
+                        spreadRadius: 3,
                         blurRadius: 7,
                         offset: Offset(0, 3),
                       )
@@ -97,7 +97,7 @@ class Homepage extends StatelessWidget {
                             color: Colors.transparent,
                             child: Container(
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20),
+                                borderRadius: BorderRadius.circular(30),
                                 boxShadow: [
                                   BoxShadow(
                                     color: Colors.grey.withOpacity(0.5),
